@@ -1,4 +1,4 @@
-# Introduction to SQL
+# CS50 SQL
 
 SQL exercises from **CS50x — Harvard University (Week 7)**, covering query writing, relational databases, and investigative problem-solving using SQLite.
 
@@ -13,7 +13,9 @@ This repository contains solutions to three problem sets that progressively intr
 ## Exercises
 
 ### Songs
-Introductory queries against a database of music tracks and artists. Covers filtering, ordering, and basic aggregation — a gentle entry point into SQL syntax and data retrieval.
+Introductory queries against a database of music tracks and
+artists. Covers filtering, ordering, and basic aggregation (a
+gentle entry point into SQL syntax and data retrieval).
 
 **Concepts:** `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `AVG`, `LIKE`
 
@@ -33,7 +35,8 @@ A database modeled after IMDb containing movies, directors, actors, and ratings.
 ---
 
 ### Fiftyville
-A mystery-solving exercise. The CS50 duck has been stolen in the fictional town of Fiftyville — the goal is to identify the thief, their accomplice, and the city they escaped to, using only SQL queries against a database of crime scene reports, security logs, phone records, and flight data.
+A mystery-solving exercise. The CS50 duck has been stolen in the
+fictional town of Fiftyville: the goal is to identify the thief, their accomplice, and the city they escaped to, using only SQL queries against a database of crime scene reports, security logs, phone records, and flight data.
 
 **Concepts:** Cross-table investigation, chained subqueries, `JOIN` across multiple tables, temporal filtering (`WHERE year/month/day`), `ORDER BY`, `LIMIT`
 
@@ -41,7 +44,7 @@ A mystery-solving exercise. The CS50 duck has been stolen in the fictional town 
 
 ## Project Structure
 ```
-introducao-SQL/
+cs50-SQL/
 ├── songs/          # Music database queries
 ├── movies/         # IMDb-style database — 13 SQL challenges
 └── fiftyville/     # Murder mystery investigation via SQL
